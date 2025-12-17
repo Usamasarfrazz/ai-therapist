@@ -28,13 +28,12 @@ yarn-error.log*
 
 # data storage
 /data
-*.json
 
 # vercel
 .vercel
 
 # typescript
+# (keep tsbuildinfo out; next-env is tracked)
 *.tsbuildinfo
-next-env.d.ts
 
 
